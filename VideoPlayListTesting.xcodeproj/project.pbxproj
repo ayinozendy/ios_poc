@@ -10,6 +10,7 @@
 		778FEAF625E406760078EC82 /* VideoViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778FEAF525E406760078EC82 /* VideoViewer.swift */; };
 		778FEAFA25E49A300078EC82 /* ItemImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778FEAF925E49A300078EC82 /* ItemImageView.swift */; };
 		778FEAFE25E49A670078EC82 /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778FEAFD25E49A670078EC82 /* ItemListView.swift */; };
+		778FEB0225E505880078EC82 /* PlaylistRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778FEB0125E505880078EC82 /* PlaylistRepository.swift */; };
 		779ED9ED25E3FEC50045092A /* VideoPlayListTestingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779ED9EC25E3FEC50045092A /* VideoPlayListTestingApp.swift */; };
 		779ED9EF25E3FEC50045092A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779ED9EE25E3FEC50045092A /* ContentView.swift */; };
 		779ED9F125E3FEC60045092A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 779ED9F025E3FEC60045092A /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 		778FEAF525E406760078EC82 /* VideoViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewer.swift; sourceTree = "<group>"; };
 		778FEAF925E49A300078EC82 /* ItemImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemImageView.swift; sourceTree = "<group>"; };
 		778FEAFD25E49A670078EC82 /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
+		778FEB0125E505880078EC82 /* PlaylistRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistRepository.swift; sourceTree = "<group>"; };
 		779ED9E925E3FEC50045092A /* VideoPlayListTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoPlayListTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		779ED9EC25E3FEC50045092A /* VideoPlayListTestingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayListTestingApp.swift; sourceTree = "<group>"; };
 		779ED9EE25E3FEC50045092A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,14 @@
 				778FEAFD25E49A670078EC82 /* ItemListView.swift */,
 			);
 			path = Video;
+			sourceTree = "<group>";
+		};
+		778FEB0025E505640078EC82 /* repository */ = {
+			isa = PBXGroup;
+			children = (
+				778FEB0125E505880078EC82 /* PlaylistRepository.swift */,
+			);
+			path = repository;
 			sourceTree = "<group>";
 		};
 		779ED9E025E3FEC50045092A = {
@@ -121,6 +131,7 @@
 		779ED9FE25E3FF970045092A /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				778FEB0025E505640078EC82 /* repository */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -268,6 +279,7 @@
 				779EDA0725E401A60045092A /* Video.swift in Sources */,
 				779ED9EF25E3FEC50045092A /* ContentView.swift in Sources */,
 				778FEAFE25E49A670078EC82 /* ItemListView.swift in Sources */,
+				778FEB0225E505880078EC82 /* PlaylistRepository.swift in Sources */,
 				778FEAF625E406760078EC82 /* VideoViewer.swift in Sources */,
 				779ED9ED25E3FEC50045092A /* VideoPlayListTestingApp.swift in Sources */,
 				779EDA0A25E401C10045092A /* Playlist.swift in Sources */,
