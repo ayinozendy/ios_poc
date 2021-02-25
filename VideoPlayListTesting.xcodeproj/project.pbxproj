@@ -10,23 +10,36 @@
 		778FEAF625E406760078EC82 /* VideoViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778FEAF525E406760078EC82 /* VideoViewer.swift */; };
 		778FEAFA25E49A300078EC82 /* ItemImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778FEAF925E49A300078EC82 /* ItemImageView.swift */; };
 		778FEAFE25E49A670078EC82 /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778FEAFD25E49A670078EC82 /* ItemListView.swift */; };
-		778FEB0225E505880078EC82 /* PlaylistRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778FEB0125E505880078EC82 /* PlaylistRepository.swift */; };
+		778FEB1D25E80FC00078EC82 /* shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 778FEB1525E803F50078EC82 /* shared.framework */; };
+		778FEB1E25E80FC00078EC82 /* shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 778FEB1525E803F50078EC82 /* shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		779ED9ED25E3FEC50045092A /* VideoPlayListTestingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779ED9EC25E3FEC50045092A /* VideoPlayListTestingApp.swift */; };
 		779ED9EF25E3FEC50045092A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779ED9EE25E3FEC50045092A /* ContentView.swift */; };
 		779ED9F125E3FEC60045092A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 779ED9F025E3FEC60045092A /* Assets.xcassets */; };
 		779ED9F425E3FEC60045092A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 779ED9F325E3FEC60045092A /* Preview Assets.xcassets */; };
 		779EDA0325E4013E0045092A /* PlaylistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779EDA0225E4013E0045092A /* PlaylistViewModel.swift */; };
-		779EDA0725E401A60045092A /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779EDA0625E401A60045092A /* Video.swift */; };
-		779EDA0A25E401C10045092A /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779EDA0925E401C10045092A /* Playlist.swift */; };
 		785B119C620A8B29048887B3 /* Pods_VideoPlayListTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71D99976436925228C8EDE85 /* Pods_VideoPlayListTesting.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		778FEB1F25E80FC00078EC82 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				778FEB1E25E80FC00078EC82 /* shared.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		71D99976436925228C8EDE85 /* Pods_VideoPlayListTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoPlayListTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		778FEAF525E406760078EC82 /* VideoViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewer.swift; sourceTree = "<group>"; };
 		778FEAF925E49A300078EC82 /* ItemImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemImageView.swift; sourceTree = "<group>"; };
 		778FEAFD25E49A670078EC82 /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
-		778FEB0125E505880078EC82 /* PlaylistRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistRepository.swift; sourceTree = "<group>"; };
+		778FEB1525E803F50078EC82 /* shared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = shared.framework; path = "../../../android/android_archi_samples/shared/build/xcode-frameworks/shared.framework"; sourceTree = "<group>"; };
 		779ED9E925E3FEC50045092A /* VideoPlayListTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoPlayListTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		779ED9EC25E3FEC50045092A /* VideoPlayListTestingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayListTestingApp.swift; sourceTree = "<group>"; };
 		779ED9EE25E3FEC50045092A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,8 +47,6 @@
 		779ED9F325E3FEC60045092A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		779ED9F525E3FEC60045092A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		779EDA0225E4013E0045092A /* PlaylistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistViewModel.swift; sourceTree = "<group>"; };
-		779EDA0625E401A60045092A /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
-		779EDA0925E401C10045092A /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
 		CEA1BAA00FACC7B6F3A45326 /* Pods-VideoPlayListTesting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayListTesting.debug.xcconfig"; path = "Target Support Files/Pods-VideoPlayListTesting/Pods-VideoPlayListTesting.debug.xcconfig"; sourceTree = "<group>"; };
 		F51438CDFC7D89C30914D315 /* Pods-VideoPlayListTesting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayListTesting.release.xcconfig"; path = "Target Support Files/Pods-VideoPlayListTesting/Pods-VideoPlayListTesting.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -46,6 +57,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				785B119C620A8B29048887B3 /* Pods_VideoPlayListTesting.framework in Frameworks */,
+				778FEB1D25E80FC00078EC82 /* shared.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,14 +72,6 @@
 				778FEAFD25E49A670078EC82 /* ItemListView.swift */,
 			);
 			path = Video;
-			sourceTree = "<group>";
-		};
-		778FEB0025E505640078EC82 /* repository */ = {
-			isa = PBXGroup;
-			children = (
-				778FEB0125E505880078EC82 /* PlaylistRepository.swift */,
-			);
-			path = repository;
 			sourceTree = "<group>";
 		};
 		779ED9E025E3FEC50045092A = {
@@ -91,8 +95,6 @@
 		779ED9EB25E3FEC50045092A /* VideoPlayListTesting */ = {
 			isa = PBXGroup;
 			children = (
-				779ED9FE25E3FF970045092A /* Data */,
-				779ED9FD25E3FF830045092A /* Model */,
 				779ED9FC25E3FF720045092A /* View */,
 				779ED9EC25E3FEC50045092A /* VideoPlayListTestingApp.swift */,
 				779ED9F025E3FEC60045092A /* Assets.xcassets */,
@@ -119,23 +121,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		779ED9FD25E3FF830045092A /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				779EDA0625E401A60045092A /* Video.swift */,
-				779EDA0925E401C10045092A /* Playlist.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		779ED9FE25E3FF970045092A /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				778FEB0025E505640078EC82 /* repository */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
 		779ED9FF25E3FFA40045092A /* Playlist */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +142,7 @@
 		B054E31B6D94EF70FC0B68D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				778FEB1525E803F50078EC82 /* shared.framework */,
 				71D99976436925228C8EDE85 /* Pods_VideoPlayListTesting.framework */,
 			);
 			name = Frameworks;
@@ -174,6 +160,7 @@
 				779ED9E625E3FEC50045092A /* Frameworks */,
 				779ED9E725E3FEC50045092A /* Resources */,
 				8B36673A51A8F5BDE3F63EC4 /* [CP] Embed Pods Frameworks */,
+				778FEB1F25E80FC00078EC82 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -276,13 +263,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				779EDA0325E4013E0045092A /* PlaylistViewModel.swift in Sources */,
-				779EDA0725E401A60045092A /* Video.swift in Sources */,
 				779ED9EF25E3FEC50045092A /* ContentView.swift in Sources */,
 				778FEAFE25E49A670078EC82 /* ItemListView.swift in Sources */,
-				778FEB0225E505880078EC82 /* PlaylistRepository.swift in Sources */,
 				778FEAF625E406760078EC82 /* VideoViewer.swift in Sources */,
 				779ED9ED25E3FEC50045092A /* VideoPlayListTestingApp.swift in Sources */,
-				779EDA0A25E401C10045092A /* Playlist.swift in Sources */,
 				778FEAFA25E49A300078EC82 /* ItemImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,6 +332,8 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = NO;
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Debug;
 		};
@@ -403,6 +389,7 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Release;
 		};
@@ -416,6 +403,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"VideoPlayListTesting/Preview Content\"";
 				DEVELOPMENT_TEAM = UADU3R5Y9L;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/URLImage\"",
+					"/Users/inogamalinda/Projects/android/android_archi_samples/shared/build/xcode-frameworks",
+				);
 				INFOPLIST_FILE = VideoPlayListTesting/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -439,6 +431,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"VideoPlayListTesting/Preview Content\"";
 				DEVELOPMENT_TEAM = UADU3R5Y9L;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/URLImage\"",
+					"/Users/inogamalinda/Projects/android/android_archi_samples/shared/build/xcode-frameworks",
+				);
 				INFOPLIST_FILE = VideoPlayListTesting/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (

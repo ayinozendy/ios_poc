@@ -7,6 +7,7 @@
 
 import SwiftUI
 import URLImage
+import shared
 
 struct ContentView: View {
     @ObservedObject var viewModel = PlaylistViewModel()
@@ -66,7 +67,7 @@ extension ContentView {
                         ItemListView(video: vid)
                     }
                 }
-            }
+            }.navigationTitle(Text(Greeting().greeting()))
         )
     }
     
@@ -80,3 +81,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+extension Video : Identifiable {}

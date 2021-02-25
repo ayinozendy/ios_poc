@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 import AVKit
+import shared
 
 struct VideoViewer: View {
     var video: Video
@@ -15,7 +16,7 @@ struct VideoViewer: View {
     
     init(video: Video) {
         self.video = video
-        player = AVPlayer(url:  URL(string: video.videoURL)!)
+        player = AVPlayer(url:  URL(string: video.videoUrl)!)
     }
 
     var body: some View {
@@ -24,7 +25,7 @@ struct VideoViewer: View {
                 .frame(maxHeight: 256)
             Text("by "+video.author)
                 .padding(8)
-            Text(video.playListDescription)
+            Text(video.description_)
                 .padding(8)
                 .lineLimit(7)
                 .truncationMode(.tail)
